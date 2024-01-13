@@ -42,7 +42,7 @@ header img{
     border-radius: .95rem;
     width: 80%;
     margin: 0 9rem;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1rem;
 }
 
@@ -63,7 +63,7 @@ input, button{
     height: 3rem;
     border-radius: 1rem;
     border: none;
-    padding-left: .50rem;
+    padding: .5rem;
 }
 input , textarea {
     outline: none;
