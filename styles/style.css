@@ -68,3 +68,35 @@ input , textarea {
     outline: none;
 }
 
+@media screen and (max-width:576px) {
+    .container h1, h2 {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .form{
+        margin: 0;
+        padding: 2rem;
+    }
+    .upper-form {
+        display: flex;
+        flex-direction: column;
+    }
+    input, button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:578px) and (max-width:992px) {
+    .container {
+        width: 80%;
+        margin: 0;
+    }
+
+    .container h1, h2 {
+        margin: 0 0 0 10rem;
+        margin-bottom: 2rem;
+    }
+
+
+}
