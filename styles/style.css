@@ -43,6 +43,7 @@ header img{
     width: 80%;
     margin: 0 9rem;
     padding: 1rem;
+    font-size: 1rem;
 }
 
 .upper-form {
@@ -66,6 +67,20 @@ input, button{
 }
 input , textarea {
     outline: none;
+}
+
+textarea, select {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+button{
+    color: #4036A9;
+    font-size: 1.25rem;
+}
+
+label {
+    font-size: 0.875rem;
 }
 
 @media screen and (max-width:576px) {
