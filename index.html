@@ -7,20 +7,56 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <header>
+      <img src="./images/contact-form-icon.svg" alt="" />
+    </header>
+
+    <main>
+
+
     <section class="container">
-      <div class="upper-part">
-        <div class="icon">
-          <img src="./contact-form-icon.svg" alt="" />
+      <h1>Interested in our business pricing?</h1>
+      <h2>
+        Fill out the form to view details and we'll contact you as soon as
+        possible.
+      </h2>
+
+      <form class="form">
+        <div class="upper-form">
+          <label for="name"
+            >Name
+            <input type="text" id="name" placeholder="ethan johnson" />
+          </label>
+
+          <label for="email"
+            >Company Email
+            <input type="email" id="email" placeholder="ethan@johson.com" />
+          </label>
+          <label for="size">Size
+            <select name="size" id="size">
+              <option value="fifty">50-100 employees</option>
+              <option value="hundred">100-200 employees</option>
+            </select>
+          </label>
+          <label for="subject">Subject
+            <select name="subject" id="subject">
+              <option value="">Building Landing pages</option>
+              <option value="">Responsive Websites</option>
+              <option value="">E-commerce Shop Design</option>
+            </select>
+          </label>
         </div>
 
-        <div class="heading">
-          <h1>Interested in our business pricing?</h1>
-          <h2>
-            Fill out the form to view details and we’ll contact you as soon as
-            possible.
-          </h2>
+        <div class="lower-form">
+
+          <label for="comment">
+            <textarea name="" id="" cols="30" rows="10">50-100 employees</textarea>
+          </label>
+          <button>Contact Sales</button>
+
         </div>
-      </div>
+      </form>
     </section>
+  </main>
   </body>
 </html>
