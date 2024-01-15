@@ -115,6 +115,8 @@ label {
         margin: 0 0 0 10rem;
         margin-bottom: 2rem;
     }
-
+    .upper-form {
+        grid-template-columns: 1fr;
+    }
 
 }
